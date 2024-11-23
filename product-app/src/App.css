@@ -1,0 +1,38 @@
+.App {
+    text-align: center;
+  }
+  
+  .product {
+    margin: 20px;
+  }
+  
+  .quantity-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-picker button {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .quantity-picker input {
+    text-align: center;
+    width: 50px;
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .product {
+      margin: 10px;
+    }
+  
+    .quantity-picker {
+      flex-direction: column;
+    }
+  
+    .quantity-picker button, .quantity-picker input {
+      margin: 5px 0;
+    }
+  }
+  
